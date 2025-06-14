@@ -4,7 +4,14 @@
     font-family: 'Droid Sans Mono', sans-serif;
     box-sizing: border-box;
 }
-
+.hamburger{
+    background-color: #333;
+}
+.socials{
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
 .sidenav {
     height: 100%;
     width: 0;
@@ -12,6 +19,7 @@
     z-index: 1;
     top: 0;
     left: 0;
+    color: #333;
     background-color: #111;
     overflow-x: hidden;
     transition: 0.5s;
